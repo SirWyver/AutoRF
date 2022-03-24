@@ -87,13 +87,21 @@
                                 </span>
                                 <!-- Video Link. -->
                                 <span class="link-block">
-                                    <a href="https://www.youtube.com/watch?v=ChdjHNGgrzI" class="external-link button is-normal is-rounded is-dark">
+                                    <a href="https://www.youtube.com/watch?v=ChdjHNGgrzI"
+                                        class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
-                                                <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
+                                            <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true"
+                                                focusable="false" data-prefix="fab" data-icon="youtube" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                                </path>
+                                            </svg><!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
                                         </span>
-                                    <span>Video</span>
+                                        <span>Video</span>
                                     </a>
-                                    </span>
+                                </span>
 
 
                                 <!-- Github Link. -->
@@ -115,11 +123,19 @@
     <section class="hero teaser">
         <div class="container is-max-desktop">
             <div class="hero-body">
+                <!--
                 <video id="teaser" autoplay muted loop height="100%">
-                    <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/teaser.mp4" type="video/mp4">
+                    <source src="static/nuscenes/3edd8c1ef10b4f4e889e016cb56035e6.mp4" type="video/mp4">
                 </video>
-                <h2 class="subtitle has-text-centered">
-                    <span class="dnerf">AutoRF</span> produces 3D scenes from just a single image.
+                <script>
+                    var v = document.getElementById("teaser");
+                    v.playbackRate = 0.1;
+
+                </script>
+            -->
+                <img src="static/teaser/teaser.jpg" height="200%"/>
+                <h2 class=" subtitle has-text-centered">
+                <span class="dnerf">AutoRF</span> produces 3D object scene representaions from just a single image.
                 </h2>
             </div>
         </div>
@@ -132,52 +148,36 @@
                 <div id="results-carousel" class="carousel results-carousel">
                     <div class="item item-steve">
                         <video poster="" id="steve" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/steve.mp4"
-                                type="video/mp4">
+                            <source src="static/nuscenes/3edd8c1ef10b4f4e889e016cb56035e6.mp4" type="video/mp4">
                         </video>
-                    </div>
-                    <div class="item item-chair-tp">
-                        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/chair-tp.mp4"
-                                type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="item item-shiba">
-                        <video poster="" id="shiba" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/shiba.mp4"
-                                type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="item item-fullbody">
-                        <video poster="" id="fullbody" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/fullbody.mp4"
-                                type="video/mp4">
-                        </video>
+                        <img src="static/nuscenes/3edd8c1ef10b4f4e889e016cb56035e6.jpg" />
                     </div>
                     <div class="item item-blueshirt">
                         <video poster="" id="blueshirt" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/blueshirt.mp4"
-                                type="video/mp4">
+                            <source src="static/nuscenes/ec7bb4009f5b42f6b497501b223ba8b2.mp4" type="video/mp4">
                         </video>
+                        <img src="static/nuscenes/ec7bb4009f5b42f6b497501b223ba8b2.jpg" />
                     </div>
-                    <div class="item item-mask">
-                        <video poster="" id="mask" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/mask.mp4"
-                                type="video/mp4">
+                    <div class="item item-fullbody">
+                        <video poster="" id="fullbody" autoplay controls muted loop height="100%">
+                            <source src="static/nuscenes/8166595e053d469ca5fcb0e12b45b068.mp4" type="video/mp4">
                         </video>
+                        <img src="static/nuscenes/8166595e053d469ca5fcb0e12b45b068.jpg" />
                     </div>
-                    <div class="item item-coffee">
-                        <video poster="" id="coffee" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/coffee.mp4"
-                                type="video/mp4">
+                    <div class="item item-shiba">
+                        <video poster="" id="shiba" autoplay controls muted loop height="100%">
+                            <source src="static/nuscenes/82bfca2a2fad4589bce8acee7dd5d794.mp4" type="video/mp4">
                         </video>
+                        <img src="static/nuscenes/82bfca2a2fad4589bce8acee7dd5d794.jpg" />
                     </div>
-                    <div class="item item-toby">
-                        <video poster="" id="toby" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/toby2.mp4"
-                                type="video/mp4">
+                    <div class="item item-chair-tp">
+                        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+                            <source src="static/nuscenes/9adba99929b5432998dff5aefdfc0178.mp4" type="video/mp4">
                         </video>
+                        <img src="static/nuscenes/9adba99929b5432998dff5aefdfc0178.jpg" />
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -234,95 +234,86 @@
     <section class="section">
         <div class="container is-max-desktop">
 
-            <div class="columns is-centered">
-
-                <!-- Visual Effects. -->
-                <div class="column">
-                    <div class="content">
-                        <h2 class="title is-3">Visual Effects</h2>
-                        <p>
-                            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect would be
-                            impossible without nerfies since it would require going through a wall.
-                        </p>
-                        <video id="dollyzoom" autoplay controls muted loop height="100%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/dollyzoom-stacked.mp4"
-                                type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <!--/ Visual Effects. -->
-
-                <!-- Matting. -->
-                <div class="column">
-                    <h2 class="title is-3">Matting</h2>
-                    <div class="columns is-centered">
-                        <div class="column content">
-                            <p>
-                                As a byproduct of our method, we can also solve the matting problem by ignoring samples
-                                that fall outside of a bounding box during rendering.
-                            </p>
-                            <video id="matting-video" controls height="100%">
-                                <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/matting.mp4"
-                                    type="video/mp4">
-                            </video>
-                        </div>
-
-                    </div>
-                </div>
+            <!-- Re-rendering. -->
+            <h3 class="title is-4">Scene editing</h3>
+            <div class="content has-text-justified">
+                <p>
+                    Using <span class="dnerf">AutoRF</span>, you can re-render a video from a novel viewpoint
+                    such as a stabilized camera by playing back the training deformations.
+                </p>
             </div>
+            <div class="content has-text-centered">
+                <img src="static/nuscenes/9adba99929b5432998dff5aefdfc0178.jpg" width="49%" />
+                <video id="scene_editing" controls autoplay muted preload loop width="49%">
+                    <source src="static/nuscenes/scene_editing.mp4" type="video/mp4">
+                </video>
+                <script>
+                    var v = document.getElementById("scene_editing");
+                    v.playbackRate = 2.0;
+
+                </script>
+            </div>
+            <!--/ Re-rendering. -->
+
             <!--/ Matting. -->
 
-            <!-- Animation. -->
+            <!-- Novel datasets. -->
             <div class="columns is-centered">
                 <div class="column is-full-width">
-                    <h2 class="title is-3">Animation</h2>
-
-                    <!-- Interpolating. -->
-                    <h3 class="title is-4">Interpolating states</h3>
+                    <h2 class="title is-3">Unseen datasets</h2>
                     <div class="content has-text-justified">
                         <p>
-                            We can also animate the scene by interpolating the deformation latent codes of two input
-                            frames. Use the slider here to linearly interpolate between the left frame and the right
-                            frame.
+                            Even on unseen datasets with highly different camera properties, light conditions and scene
+                            compositions, <span class="dnerf">AutoRF</span> can synthesis reasonable scene
+                            representations.
                         </p>
                     </div>
-                    <div class="columns is-vcentered interpolation-panel">
-                        <div class="column is-3 has-text-centered">
-                            <img src="https://homes.cs.washington.edu/~kpar/nerfies/images/interpolate_start.jpg"
-                                class="interpolation-image" alt="Interpolate start reference image." />
-                            <p>Start Frame</p>
-                        </div>
-                        <div class="column interpolation-video-column">
-                            <div id="interpolation-image-wrapper">
-                                Loading...
+                    <div class="columns is-centered">
+
+                        <!-- Visual Effects. -->
+                        <div class="column">
+                            <div class="content">
+                                <h3 class="title is-3">KITTI</h2>
+                                    <div class="item kitti47">
+                                        <video poster="" id="kitti47" autoplay controls muted loop width="80%">
+                                            <source src="static/new_dataset/kitti_47.mp4" type="video/mp4">
+                                        </video>
+                                        <img src="static/new_dataset/000047.png" width="80%" />
+
+                                        <video poster="" id="kitti136" autoplay controls muted loop width="80%">
+                                            <source src="static/new_dataset/kitti_136.mp4" type="video/mp4">
+                                        </video>
+                                        <img src="static/new_dataset/000136.png" width="80%" />
+                                    </div>
                             </div>
-                            <input class="slider is-fullwidth is-large is-info" id="interpolation-slider" step="1"
-                                min="0" max="100" value="0" type="range">
                         </div>
-                        <div class="column is-3 has-text-centered">
-                            <img src="https://homes.cs.washington.edu/~kpar/nerfies/images/interpolate_end.jpg"
-                                class="interpolation-image" alt="Interpolation end reference image." />
-                            <p class="is-bold">End Frame</p>
+                        <div class="column">
+                            <h3 class="title is-3">Mappilary Metropolis</h2>
+                                <div class="columns is-centered">
+                                    <div class="column content">
+                                        <div class="item g">
+                                            <img src="static/new_dataset/g.jpg" width="49%" />
+                                            <video poster="" id="g" autoplay controls muted loop width="49%">
+                                                <source src="static/new_dataset/g.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+
+                                        <div class="item f">
+                                            <img src="static/new_dataset/f.jpg" width="49%" />
+                                            <video poster="" id="f" autoplay controls muted loop width="49%">
+                                                <source src="static/new_dataset/f.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+
+                                </div>
                         </div>
                     </div>
-                    <br />
+
+
+
                     <!--/ Interpolating. -->
 
-                    <!-- Re-rendering. -->
-                    <h3 class="title is-4">Re-rendering the input video</h3>
-                    <div class="content has-text-justified">
-                        <p>
-                            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel viewpoint
-                            such as a stabilized camera by playing back the training deformations.
-                        </p>
-                    </div>
-                    <div class="content has-text-centered">
-                        <video id="replay-video" controls muted preload width="75%">
-                            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/replay.mp4"
-                                type="video/mp4">
-                        </video>
-                    </div>
-                    <!--/ Re-rendering. -->
 
                 </div>
             </div>
