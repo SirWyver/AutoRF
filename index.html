@@ -32,8 +32,7 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title">AutoRF: Learning 3D Object Radiance Fields from Single
-                            View Observations</h1>
+                        <h1 class="title is-1 publication-title">AutoRF: Learning 3D Object Radiance Fields from Single View Observations</h1>
                         <div class="is-size-5 publication-authors">
                             <span class="author-block">
                                 <a href="https://niessnerlab.org/members/norman_mueller/profile.html">Norman
@@ -76,16 +75,16 @@
                                         <span class="icon">
                                             <i class="fas fa-file-pdf"></i>
                                         </span>
-                                        <span>Paper</span>
-                                    </a>
+                                <span>Paper</span>
+                                </a>
                                 </span>
                                 <span class="link-block">
                                     <a class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
                                             <i class="ai ai-arxiv"></i>
                                         </span>
-                                        <span>arXiv</span>
-                                    </a>
+                                <span>arXiv</span>
+                                </a>
                                 </span>
                                 <!-- Video Link. -->
                                 <span class="link-block">
@@ -101,8 +100,8 @@
                                                 </path>
                                             </svg><!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
                                         </span>
-                                        <span>Video</span>
-                                    </a>
+                                <span>Video</span>
+                                </a>
                                 </span>
 
 
@@ -112,8 +111,8 @@
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
-                                        <span>Code (coming soon)</span>
-                                    </a>
+                                <span>Code (coming soon)</span>
+                                </a>
                                 </span>
                                 <!-- Dataset Link. -->
                                 <span class="link-block">
@@ -136,11 +135,10 @@
             -->
                 <img src="static/teaser/teaser2.png" height="200%" />
                 <h2 class=" subtitle has-text-centered">
-                    <span class="dnerf">AutoRF</span> produces 3D object scene representations from just a single image
-                    that can be render from arbitrary views and is trained on only a single-view per object.
-                </h2>
-            </div>
-        </div>
+                    <span class="dnerf">AutoRF</span> produces 3D object scene representations from just a single image that can be render from arbitrary views and is trained on only a single-view per object.
+                                </h2>
+                            </div>
+                        </div>
     </section>
 
 
@@ -194,31 +192,20 @@
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
-                            We introduce AutoRF – a new approach for learning neural 3D object representations where
-                            each object in the
-                            training set is observed by only a single view.
+                            We introduce AutoRF – a new approach for learning neural 3D object representations where each object in the training set is observed by only a single view.
                         </p>
                         <p>
-                            This setting is in stark contrast to the majority of existing works that leverage multiple
-                            views of the same object, employ explicit priors during training, or require pixel-perfect
-                            annotations. To address this challenging setting, we propose to learn
-                            a normalized, object-centric representation whose embedding describes and disentangles
-                            shape, appearance, and pose.
+                            This setting is in stark contrast to the majority of existing works that leverage multiple views of the same object, employ explicit priors during training, or require pixel-perfect annotations. To address this challenging setting, we propose to learn
+                            a normalized, object-centric representation whose embedding describes and disentangles shape, appearance, and pose.
                         </p>
                         <p>
-                            Each encoding provides well-generalizable, compact information about the object of interest,
-                            which is decoded in a single-shot into a new target view, thus enabling novel view
-                            synthesis.
+                            Each encoding provides well-generalizable, compact information about the object of interest, which is decoded in a single-shot into a new target view, thus enabling novel view synthesis.
                         </p>
                         <p>
-                            We further improve the reconstruction quality by optimizing shape and appearance codes at
-                            test time by fitting the representation tightly to the input image.
+                            We further improve the reconstruction quality by optimizing shape and appearance codes at test time by fitting the representation tightly to the input image.
                         </p>
                         <p>
-                            In a series of experiments, we show
-                            that our method generalizes well to unseen objects, even
-                            across different datasets of challenging real-world street
-                            scenes such as nuScenes, KITTI, and Mapillary Metropolis.
+                            In a series of experiments, we show that our method generalizes well to unseen objects, even across different datasets of challenging real-world street scenes such as nuScenes, KITTI, and Mapillary Metropolis.
                         </p>
 
                     </div>
@@ -231,10 +218,7 @@
                 <div class="column is-four-fifths">
                     <h2 class="title is-3">Video</h2>
                     <div class="publication-video">
-                        <iframe src="https://www.youtube.com/embed/mDcsSK3GaF4" title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/mDcsSK3GaF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -250,9 +234,7 @@
             <h3 class="title is-4">Scene editing</h3>
             <div class="content has-text-justified">
                 <p>
-                    <span class="dnerf">AutoRF</span> naturally disentangles object shape, appearance and pose. This
-                    allows to control each property individually while freely moving the camera leading to the
-                    first ever implicitly reverse-parked car.
+                    <span class="dnerf">AutoRF</span> naturally disentangles object shape, appearance and pose. This allows to control each property individually while freely moving the camera leading to the first ever implicitly reverse-parked car.
                 </p>
             </div>
             <div class="content has-text-centered">
@@ -263,7 +245,6 @@
                 <script>
                     var v = document.getElementById("scene_editing");
                     v.playbackRate = 1.5;
-
                 </script>
             </div>
 
@@ -277,9 +258,7 @@
                     <h2 class="title is-3">Unseen datasets</h2>
                     <div class="content has-text-justified">
                         <p>
-                            Even on unseen datasets with highly different camera properties, light conditions and scene
-                            compositions, <span class="dnerf">AutoRF</span> can synthesis reasonable scene
-                            representations.
+                            Even on unseen datasets with highly different camera properties, light conditions and scene compositions, <span class="dnerf">AutoRF</span> can synthesis reasonable scene representations.
                         </p>
                     </div>
                     <div class="columns is-centered">
@@ -345,27 +324,22 @@
                         </p>
                         <p>
                             <a href="https://github.com/facebookresearch/co3d">Common Objects in 3D: Large-Scale
-                                Learning and Evaluation of Real-life 3D Category Reconstruction</a>
-                            introduces a new dataset for training on real 3d-annotated category-centric data.
+                                Learning and Evaluation of Real-life 3D Category Reconstruction</a> introduces a new dataset for training on real 3d-annotated category-centric data.
                         </p>
 
                         <p>
                             <a href="https://formyfamily.github.io/NeROIC/">NeROIC: Neural Object Capture and Rendering
-                                from Online Image Collections</a>,
-                            presents another approach for geometry and material estimation by generalizing from
-                            large-scale
-                            object-centric data.
+                                from Online Image Collections</a>, presents another approach for geometry and material estimation by generalizing from large-scale object-centric data.
                         </p>
 
                         <p>
                             A similar disentanglement of shape and appearance can be found in
                             <a href="https://sites.google.com/view/wbjang/home/codenerf">CodeNeRF: Disentangled Neural
                                 Radiance Fields for Object Categories</a>
-                        <p>
-                            There are probably many more by the time you are reading this. Check out <a
-                                href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's
+                            <p>
+                                There are probably many more by the time you are reading this. Check out <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's
                                 curated list of NeRF papers</a>.
-                        </p>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -402,8 +376,7 @@
                 <div class="column is-8">
                     <div class="content">
                         <p style="text-align:center">
-                            Source code mainly borrowed from <a href="https://keunhong.com/">Keunhong Park</a>'s <a
-                                href="https://nerfies.github.io/">Nerfies website</a>.
+                            Source code mainly borrowed from <a href="https://keunhong.com/">Keunhong Park</a>'s <a href="https://nerfies.github.io/">Nerfies website</a>.
                         </p>
                         <p style="text-align:center">
                             Please contact <a href="https://niessnerlab.org/members/norman_mueller/profile.html">Norman
